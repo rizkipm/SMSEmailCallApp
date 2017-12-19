@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/etNoHp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="No Hp"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/etTeksSMS"
+            android:layout_width="match_parent"
+            android:layout_height="209dp"
+            android:ems="10"
+            android:hint="Write some text here"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/btnKirimSMS"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Kirim SMS" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
